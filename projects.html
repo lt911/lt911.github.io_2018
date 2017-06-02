@@ -38,14 +38,12 @@
 
 									<h2 id="dcgan">Experiment on class-conditioned DCGAN</h2>
 									<!-- <span class="image main"><img src="images/pic01.png" alt="" /></span> -->
-
 									<div class="box alt">
 										<div class="row 50% uniform">
 											<div class="6u"><span class="image fit"><img src="images/pic01.png" alt="" /></span></div>
 											<div class="6u"><span class="image fit"><img src="images/cdcgan_decov_0_9_215_4_fake_sample.png" alt="" /></span></div>
 										</div>
 									</div>
-
 									<p>GAN (generative adversarial network) has gained increasing popularity in recent days. In this mini-project, we explored a typical GAN setup, called DCGAN (deep convolutional GAN) for training an image generator. In contrast to the traditional vanilla GAN, which has network using multi-layer perceptrons as building blocks, the DCGAN train both the discriminator and the generator using convolutional networks. In addition to this architecture, we append class condition information to the whole training process in order to have a generator which is able to control the image randomness. A detailed report for the experiment can be found below.</p>
 									<ul class="actions">
 											<li><a href="/pdfs/CDCGAN.pdf" class="button big">Report</a></li>
@@ -54,14 +52,12 @@
 									<hr class="major" />
 
 									<h2 id="psudo-label">Semi-Supervised Learning on MNIST Hand Written Digit Recognition</h2>
-
 									<div class="box alt">
 										<div class="row 50% uniform">
 											<div class="6u"><span class="image fit"><img src="images/pic02.png" alt="" /></span></div>
 											<div class="6u"><span class="image fit"><img src="images/psudo_table.png" alt="" /></span></div>
 										</div>
 									</div>
-
 									<p>Supervised learning is usually the easiest and desirable learning method for training a model. However, it is always costly to have labeled data. As a result, unsupervised learning becomes more attractive for handling large but label-free datasets. In this mini project, we still wanted a supervised model for the final classification task, but utilized a semi-supervised approach to enhance the model from unlabeled data. A detailed report for the model architecture can be found below.</p>
 									<ul class="actions">
 											<li><a href="/pdfs/psudo.pdf" class="button big">Report</a></li>
@@ -70,7 +66,6 @@
 									<hr class="major" />
 
 									<h2 id=capstone>Predict and Quantify Development Influence</h2>
-
 									<div class="box alt">
 										<div class="row 50% uniform">
 											<div class="6u"><span class="image fit"><img src="images/pic03.png" alt="" style="width:400px;height:350px"/></span></div>
@@ -78,16 +73,52 @@
 										</div>
 									</div>
 									<p>The real estate market is a key pillar industry in large cities. From everyday experience, high property values often indicate prosperity in the area. Many economists and researchers have worked on finding and analyzing factors which have impacts on the integrated view of the economic development. Yet many of the previous work focused on forecasting the housing price, while our work presented here is to make a detour to find underlying potential building attributes which give a newly introduced development power to exert an impact to its nearby real estate market in Manhattan, New York. We applied different basic machine learning models such as logistic regression(LR), support vector machine (SVM), random forest (RF), Naive Bayes (NB) and AdaBoost(Ada) to find if the approach using only real estate properties’ attributes as factors would generate reasonable predictive models.</p>
-
 									<ul class="actions">
 											<li><a href="/pdfs/capstone.pdf" class="button big">Paper</a></li>
 									</ul>
 
-<!-- 									<hr class="major" />
+									<hr class="major" />
 
-									<h2>Lorem aliquam bibendum</h2>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p> -->
+									<h2 id=ML>Automated Question Answering System  based on Multiclass Prediction of Yahoo!Answers</h2>
+									<div class="box alt">
+										<div class="row 50% uniform">
+											<div class="6u"><span class="image fit"><img src="images/pic04.jpg" alt="" style="width:500px;height:400px"/></span></div>
+											<div class="6u"><span class="image fit"><img src="images/ML_roc.png" alt="" style="width:500px;height:450px"/></span></div>
+										</div>
+									</div>
+									<p>Seeking answers from web has been a common way for research. Our project is trying to predict the category of a question and seek to find the most similar queries in the archive given a new query entered in the database. After prediction of the question category, we would look into the archive for the predicted class, and then retrieve the best answer to the most similar question for the new query question. Categories were set to be four of the most frequent asked categories in a subset of 58,317 entries in the Yahoo! Answers corpus as of 10/25/2007. We transformed the questions into vectorized count and binary form. With the transformed vectors, we applied different machine learning models (including Random Forest, One-vs-All multi-classification with support vector machine(SVM), multinomial Nave Bayes, Bagging of multinomial Nave Bayes, and Ensemble of the mentioned models) for prediction. By feature engineering and hyper-parameter tuning, most of the models we obtained achieved a test accuracy around 80%. When choosing the most similar question, instead of using cosine similarity as the measure of two questions, we uses Okapi BM25 model, which gives a better result.</p>
+									<ul class="actions">
+											<li><a href="/pdfs/question-answering-poster.pdf" class="button big">Poster</a></li>
+									</ul>
+
+									<hr class="major"/>
+
+									<h2 id=BD>Analysis of Interaction between Newly Introduced Taxi Modes and Yellow Taxi in NYC</h2>
+									<div class="box alt">
+										<div class="row 50% uniform">
+											<div class="6u"><span class="image fit"><img src="images/pic05.png" alt=""/></span></div>
+											<div class="6u"><span class="image fit"><img src="images/BD_histogram.png" alt=""/></span></div>
+										</div>
+									</div>
+									<p>As a major trade center in the United States, New York City's convenient transportation is essential for people living in such a fast-paced lifestyle. Yellow taxi, a major means of transportation in NYC, has been widely used by people for many years. However, as new modes of transportation being introduced, such as green taxi and Uber, people's preference of taxi mode has changed. We found that although yellow taxis still dominate the market of vehicle for hire, green taxis and Uber taxis hold an incline to prosperity.  </p>
+									<ul class="actions">
+											<li><a href="/pdfs/BD_poster.pdf" class="button big">Poster</a></li>
+									</ul>
+
+									<hr class="major"/>
+
+									<h2 id=Intro>Twitter Sentiment Analysis: Predicting TV Show Renewal</h2>
+									<div class="box alt">
+										<div class="row 50% uniform">
+											<div class="6u"><span class="image fit"><img src="images/pic06.jpeg" alt=""/></span></div>
+											<div class="6u"><span class="image fit"><img src="images/tweet_roc.png" alt=""/></span></div>
+										</div>
+									</div>
+									<p>In this project, we take a dataset of 1.6 million tweets published between April 17th, 2009 and May 27th, 2009. In a previous analysis, each of these tweets have been given a polarity score corresponding to that tweet’s sentiment. In our project, we train several models to try to predict that sentiment through the tweet’s text content. After finding an optimal candidate model, the tweets mentioning television shows of interest are gathered. The results of the sentiment analysis on these TV show tweets are then fed through a new model. This model attempts to determine if positive twitter sentiment can predict whether or not a television show is renewed the following season. </p>
+									<ul class="actions">
+											<li><a href="/pdfs/twitter_sent.pdf" class="button big">Report</a></li>
+									</ul>
+
 
 								</section>
 
@@ -98,23 +129,26 @@
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="index.html">Homepage</a></li>
+										<!-- <li><a href="index.html">Homepage</a></li> -->
+										<li>
+											<span class="opener">Homepage</span>
+											<ul>
+												<li><a href="index.html">Main</a></li>
+												<li><a href="index.html#projects">Academic Projects</a></li>
+												<li><a href="index.html#work">Work Experience</a></li>
+												<li><a href="index.html#education">Education</a></li>
+											</ul>
+										</li>
 										<li><a href="projects.html">Projects</a></li>
 									</ul>
 								</nav>
+
 
 							<!-- Section -->
 								<section>

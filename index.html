@@ -49,7 +49,7 @@
 
 							<!-- Section -->
 								<section>
-									<header class="major">
+									<header id=projects class="major">
 										<h2>Academic Projects</h2>
 									</header>
 									<div class="posts">
@@ -81,26 +81,26 @@
 
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<h3>Automated Question Answering System  based on Multiclass Prediction of Yahoo!Answers</h3>
+											<p>One of the major purposes of Internet is that people can use search engines to look up answers to their questions. In this project, we implemented a simple question answering system by applying multi-class prediction on the Yahoo!Answers dataset. For a simple and manageable approach, we decided to use only the top four frequently asked categories in the dataset. Then we trained a set of different multi-class models for the task. </p>
 											<ul class="actions">
-												<li><a href="projects.html" class="button">More</a></li>
+												<li><a href="projects.html#ML" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.png" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="projects.html#BD" class="image"><img src="images/pic05.png" alt="" /></a>
+											<h3>Analysis of Interaction between Newly Introduced Taxi Modes and Yellow Taxi in NYC</h3>
+											<p></p>
 											<ul class="actions">
-												<li><a href="projects.html" class="button">More</a></li>
+												<li><a href="projects.html#BD" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic06.jpeg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="projects.html#intro" class="image"><img src="images/pic06.jpeg" alt="" /></a>
+											<h3>Twitter Sentiment Analysis: Predicting TV Show Renewal</h3>
+											<p></p>
 											<ul class="actions">
-												<li><a href="projects.html" class="button">More</a></li>
+												<li><a href="projects.html#Intro" class="button">More</a></li>
 											</ul>
 										</article>
 									</div>
@@ -108,18 +108,45 @@
 
 							<!-- Section -->
 								<section>
-									<header class="major">
+									<header id=work class="major">
 										<h2>Work Experience</h2>
 									</header>
-									<div class="post">
-										<article>
-										<p><span class="image left"><img src="images/civitas_logo.png" alt="" /></span> <h3>Title: Associate Data Scientist</h3> <br>
+									<div class="row">
+										<div class="6u 12u$(small)">
+										<p><span class="image left"><img src="images/civitas_logo.png" alt="" /></span> <h3> Associate Data Scientist</h3> <br>
 										Utilized machine learning models to discover insights of students’ engagement pattern based on their activities on Learning Management Systems (e.g. Blackboard, Oracle, etc.)</p>
-										</article>
 									</div>
 								</section>
-
-
+							<!-- Section -->
+								<section>
+									<header id=education class="major">
+										<h2>Education</h2>
+									</header>
+									<div class="row">
+											<div class="6u 12u$(small)">
+												<p><span class="image left"><img src="images/nyu_logo.jpeg" alt="" /></span> 
+												<h3> Degree</h3> 
+												Master of Science
+												<br>
+												<br>
+												<h3>Major(s)</h3> 
+												Data Science
+												<h4>Expected: May 2017</h4>
+												</p>
+											</div>
+											<div class="6u$ 12u$(small)">
+												<p><span class="image left"><img src="images/stony_logo.png" alt="" /></span> 
+												<h3>Degree</h3>
+												Bachelor of Science
+												<br>
+												<h3>Major(s)</h3>
+												Astronomy <br>
+												Applied Mathematics and Statistics
+												<h4>Expected: May 2013</h4>
+												</p>
+											</div>
+										</div>
+								</section>
 						</div>
 					</div>
 
@@ -127,20 +154,22 @@
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="index.html">Homepage</a></li>
+										<!-- <li><a href="index.html">Homepage</a></li> -->
+										<li>
+											<span class="opener">Homepage</span>
+											<ul>
+												<li><a href="index.html">Main</a></li>
+												<li><a href="index.html#projects">Academic Projects</a></li>
+												<li><a href="index.html#work">Work Experience</a></li>
+												<li><a href="index.html#education">Education</a></li>
+											</ul>
+										</li>
 										<li><a href="projects.html">Projects</a></li>
 									</ul>
 								</nav>
@@ -153,7 +182,7 @@
 									</header>
 									<!-- <p> You can contact me via</p> -->
 									<ul class="contact">
-										<li class="fa-envelope-o"><a href="#">lt911@nyu.edu</a></li>
+										<li class="fa-envelope-o"><a href="mailto:lt911@nyu.edu">lt911@nyu.edu</a></li>
 										<li><a href="https://www.linkedin.com/in/lizhen-tan-3000bb4b/">Linkedin</a></li>
 										<li><a href="https://github.com/lt911">GitHub</a></li>
 										<!-- <li class="fa-phone">(000) 000-0000</li>
