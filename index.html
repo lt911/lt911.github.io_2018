@@ -25,17 +25,17 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>Liz's </strong> Playground</a>
+									<a href="index.html" class="logo"><strong>Liz's </strong> Page</a>
 								</header>
 
 							<!-- Banner -->
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>Hi, I’m Liz Tan</h1>
-											<p> Welcome to my playground, feel free to play around!!!</p>
+											<h1>Liz Tan</h1>
+											<!-- <p> Welcome to my playground, feel free to play around!!!</p> -->
 										</header>
-										<p> I am an MS student who has just graduated from New York University. My career interest is data science, anything includes but is not limited to: machine learning, deep learning and big data.  You can find my resume in the following link.</p>
+										<p> Graduated from New York University's MS in Data Science program. Has expereicne in buidling models using traditional machine learning techniques as well as deep learning methods. </p>
 										<ul class="actions">
 											<li><a href="/pdfs/Resume.pdf" class="button big">Resume</a></li>
 										</ul>
@@ -56,26 +56,38 @@
 										<article>
 											<a href="projects.html#dcgan" class="image"><img src="images/pic01.png" alt="" /></a>
 											<h3>Experiment on class-conditioned DCGAN </h3>
-											<p>A mini project which uses DCGAN (deep convolutional GAN) as the base architecture, then adding class-conditioned context information to control image randomness.</p>
+											<!-- <p>A mini project which uses DCGAN (deep convolutional GAN) as the base architecture, then adding class-conditioned context information to control image randomness.</p>
 											<ul class="actions">
 												<li><a href="projects.html#dcgan" class="button">More</a></li>
+											</ul> -->
+											<p>GAN (generative adversarial network) has gained increasing popularity in recent days. In this mini-project, we explored a typical GAN setup, called DCGAN (deep convolutional GAN) for training an image generator. In contrast to the traditional vanilla GAN, which has network using multi-layer perceptrons as building blocks, the DCGAN train both the discriminator and the generator using convolutional networks. In addition to this architecture, we append class condition information to the whole training process in order to have a generator which is able to control the image randomness. A detailed report for the experiment can be found below.</p>
+											<ul class="actions">
+												<li><a href="/pdfs/CDCGAN.pdf" class="button big">Report</a></li>
 											</ul>
 										</article>
 										<article>
 											<a href="projects.html#psudo-label" class="image"><img src="images/pic02.png" alt="" /></a>
 											<h3>SEMI-SUPERVISED LEARNING ON MNIST<br />
 											 HANDWRITTEN DIGIT RECOGNITION</h3>
-											<p>A mini project which explores the usage of semi-supervised learning on the MNIST hand-written data set. The semi-supervised method is called psudo-label. This method helps in using more unlabeled data in training which also gives a slightly boost to the model accuracy. 
+											<!-- <p>A mini project which explores the usage of semi-supervised learning on the MNIST hand-written data set. The semi-supervised method is called psudo-label. This method helps in using more unlabeled data in training which also gives a slightly boost to the model accuracy. 
 											<ul class="actions">
 												<li><a href="projects.html#psudo-label" class="button">More</a></li>
+											</ul> -->
+											<p>Supervised learning is usually the easiest and desirable learning method for training a model. However, it is always costly to have labeled data. As a result, unsupervised learning becomes more attractive for handling large but label-free datasets. In this mini project, we still wanted a supervised model for the final classification task, but utilized a semi-supervised approach to enhance the model from unlabeled data. A detailed report for the model architecture can be found below.</p>
+											<ul class="actions">
+													<li><a href="/pdfs/psudo.pdf" class="button big">Report</a></li>
 											</ul>
 										</article>
 										<article>
 											<a href="projects.html#capstone" class="image"><img src="images/pic03.png" alt="" style="width:300px;height:350px" /></a>
 											<h3>Predict and Quantify Development Influence</h3>
-											<p>The real estate market is a very interesting area in economy. Usually a high market value indicates a more prosperous region. In this project, we focused our study on Manhattan, NY using the PLUTO (Primary Land Use Tax Lot Output) and the Rolling Sales data from the NYC Department of Finance. Our goal was to find how a newly introduced business has influence on the real estate values in its neighboring region. At the same time we used machine learning techniques to discover the most significant features or attributes under our model settings. </p>
+											<!-- <p>The real estate market is a very interesting area in economy. Usually a high market value indicates a more prosperous region. In this project, we focused our study on Manhattan, NY using the PLUTO (Primary Land Use Tax Lot Output) and the Rolling Sales data from the NYC Department of Finance. Our goal was to find how a newly introduced business has influence on the real estate values in its neighboring region. At the same time we used machine learning techniques to discover the most significant features or attributes under our model settings. </p>
 											<ul class="actions">
 												<li><a href="projects.html#capstone" class="button">More</a></li>
+											</ul> -->
+											<p>The real estate market is a key pillar industry in large cities. From everyday experience, high property values often indicate prosperity in the area. Many economists and researchers have worked on finding and analyzing factors which have impacts on the integrated view of the economic development. Yet many of the previous work focused on forecasting the housing price, while our work presented here is to make a detour to find underlying potential building attributes which give a newly introduced development power to exert an impact to its nearby real estate market in Manhattan, New York. We applied different basic machine learning models such as logistic regression(LR), support vector machine (SVM), random forest (RF), Naive Bayes (NB) and AdaBoost(Ada) to find if the approach using only real estate properties’ attributes as factors would generate reasonable predictive models.</p>
+											<ul class="actions">
+													<li><a href="/pdfs/capstone.pdf" class="button big">Paper</a></li>
 											</ul>
 										</article>
 
@@ -84,23 +96,23 @@
 											<h3>Automated Question Answering System  based on Multiclass Prediction of Yahoo!Answers</h3>
 											<p>One of the major purposes of Internet is that people can use search engines to look up answers to their questions. In this project, we implemented a simple question answering system by applying multi-class prediction on the Yahoo!Answers dataset. For a simple and manageable approach, we decided to use only the top four frequently asked categories in the dataset. Then we trained a set of different multi-class models for the task. </p>
 											<ul class="actions">
-												<li><a href="projects.html#ML" class="button">More</a></li>
-											</ul>
+											<li><a href="/pdfs/question-answering-poster.pdf" class="button big">Poster</a></li>
+									</ul>
 										</article>
 										<article>
 											<a href="projects.html#BD" class="image"><img src="images/pic05.png" alt="" /></a>
 											<h3>Analysis of Interaction between Newly Introduced Taxi Modes and Yellow Taxi in NYC</h3>
-											<p></p>
+											<p>As a major trade center in the United States, New York City's convenient transportation is essential for people living in such a fast-paced lifestyle. Yellow taxi, a major means of transportation in NYC, has been widely used by people for many years. However, as new modes of transportation being introduced, such as green taxi and Uber, people's preference of taxi mode has changed. We found that although yellow taxis still dominate the market of vehicle for hire, green taxis and Uber taxis hold an incline to prosperity.  </p>
 											<ul class="actions">
-												<li><a href="projects.html#BD" class="button">More</a></li>
+													<li><a href="/pdfs/BD_poster.pdf" class="button big">Poster</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="projects.html#intro" class="image"><img src="images/pic06.jpeg" alt="" /></a>
+											<a href="projects.html#Intro" class="image"><img src="images/pic06.jpeg" alt="" /></a>
 											<h3>Twitter Sentiment Analysis: Predicting TV Show Renewal</h3>
-											<p></p>
+											<p>In this project, we take a dataset of 1.6 million tweets published between April 17th, 2009 and May 27th, 2009. In a previous analysis, each of these tweets have been given a polarity score corresponding to that tweet’s sentiment. In our project, we train several models to try to predict that sentiment through the tweet’s text content. After finding an optimal candidate model, the tweets mentioning television shows of interest are gathered. The results of the sentiment analysis on these TV show tweets are then fed through a new model. This model attempts to determine if positive twitter sentiment can predict whether or not a television show is renewed the following season. </p>
 											<ul class="actions">
-												<li><a href="projects.html#Intro" class="button">More</a></li>
+													<li><a href="/pdfs/twitter_sent.pdf" class="button big">Report</a></li>
 											</ul>
 										</article>
 									</div>
